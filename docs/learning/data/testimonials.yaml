@@ -1,0 +1,12 @@
+# Testimonials for IndentWork Learning
+# This file can be easily updated by CI/CD pipelines
+
+testimonials:
+  - quote: The instructors at IndentWork Learning are exceptional. The hands-on approach helped me land my dream job.
+    author: Ashish Arora
+    
+  - quote: Best investment in my career. The skills I learned are directly applicable to my work.
+    author: Abhay Arora
+    
+  - quote: Flexible schedule and excellent support made learning easy while working full-time.
+    author: Astha Pahuja

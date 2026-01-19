@@ -1,0 +1,44 @@
+/* Learning page specific styles */
+
+/* Programs section lists */
+#programs .feature-card ul {
+    list-style: none;
+    padding: 0;
+}
+
+#programs .feature-card ul li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+#programs .feature-card ul li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* Testimonials styling */
+#testimonials .feature-card {
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+#testimonials .feature-card p:first-child {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Why us section - different grid for 6 items */
+#why-us .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+#why-us .feature-card {
+    padding: 1.5rem;
+}
+
+#why-us .feature-icon {
+    font-size: 2.5rem;
+}
